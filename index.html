@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<!-- header/jumbotron -->
+<header class="jumbotron jumbotron-fluid ">
+    <h1 class="container display-4">Your Local Weather Forecast</h1>
+    <p></p>
+ </header>
+    <hr>
+
+<!-- location of search bar/button for city/state/location-->
+<div>
+    <input type="text" id="searchTerm" name="city" onclick="ResetSubmitButton()">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Begin Search</a>
+    
+
+</div>
+
+<!-- cards illistration 5 day weather forecast-->
+<section id="container" class="row">
+    <div class="card col-2">
+        <h2 id="Day1"></h2>
+        <ul>
+            <img id="Day1-icon" src="http://weathermap.org/img/wn/10d@2x.png">
+            <li id="Day1-temp">Temp</li>
+            <li id="Day1-wind">Wind</li>
+            <li id="Day1-hum">Hum</li>
+        </ul>
+    </div>
+    <div class="card col-2">
+        <h2 id="Day1"></h2>
+        <ul>
+            <img id="Day1-icon" src="http://weathermap.org/img/wn/10d@2x.png">
+            <li id="Day1-temp">Temp</li>
+            <li id="Day1-wind">Wind</li>
+            <li id="Day1-hum">Hum</li>
+        </ul>
+    </div>
+    <div class="card col-2">
+        <h2 id="Day1"></h2>
+        <ul>
+            <img id="Day1-icon" src="http://weathermap.org/img/wn/10d@2x.png">
+            <li id="Day1-temp">Temp</li>
+            <li id="Day1-wind">Wind</li>
+            <li id="Day1-hum">Hum</li>
+        </ul>
+    </div>
+    <div class="card col-2">
+        <h2 id="Day1"></h2>
+        <ul>
+            <img id="Day1-icon" src="http://weathermap.org/img/wn/10d@2x.png">
+            <li id="Day1-temp">Temp</li>
+            <li id="Day1-wind">Wind</li>
+            <li id="Day1-hum">Hum</li>
+        </ul>
+    </div>
+    <div class="card col-2">
+        <h2 id="Day1"></h2>
+        <ul>
+            <img id="Day1-icon" src="http://weathermap.org/img/wn/10d@2x.png">
+            <li id="Day1-temp">Temp</li>
+            <li id="Day1-wind">Wind</li>
+            <li id="Day1-hum">Hum</li>
+        </ul>
+    </div>
+</section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
