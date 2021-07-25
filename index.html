@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- header/jumbotron -->
-<header class="jumbotron jumbotron-fluid ">
+<header class="jumbotron jumbotron-fluid">
     <h1 class="container display-4">Your Local Weather Forecast</h1>
     <p></p>
  </header>
@@ -19,14 +19,13 @@
 <!-- location of search bar/button for city/state/location-->
 <div>
     <input type="text" id="searchTerm" name="city" onclick="ResetSubmitButton()">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Begin Search</a>
-    
-
+    <button type="button" class="btn" id="submit-search" onclick="searchCityAction()" style="background-color: blanchedalmond;">Begin Search</button>
+    <ul id="city-list"></ul>
 </div>
 
 <!-- cards illistration 5 day weather forecast-->
 <section id="container" class="row">
-    <div class="card col-2">
+    <div class="card col-4">
         <h2 id="Day1"></h2>
         <ul>
             <img id="Day1-icon" src="http://weathermap.org/img/wn/10d@2x.png">
@@ -73,6 +72,7 @@
     </div>
 </section>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
