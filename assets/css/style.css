@@ -1,0 +1,56 @@
+
+/*This will be styling my page header and search area*/
+.jumbotron-fluid {
+    background-color: rgb(104, 104, 231);
+    font-size: larger;
+}
+.heading {
+    font-size: 68px;
+    margin: 0px 0px 20px 0px;
+}
+h1 {
+    margin-top: 20px;
+}
+
+
+/*styling for current weather display*/
+.ajax-section {
+    margin: 70px 0 20px;
+  }
+  
+  .ajax-section .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .ajax-section .city {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background: var(--text_light);
+    color: var(--text_med);
+  }
+  
+  
+  .ajax-section figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .ajax-section .city-temp {
+    font-size: px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--text_dark);
+  }
+  
+  
+  .ajax-section .city-name sup {
+    padding: 0.2em 0.6em;
+    border-radius: 30px;
+    color: var(--text_light);
+    background: var(--orange);
+  }
+  
